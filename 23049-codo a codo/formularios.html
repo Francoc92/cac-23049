@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="widht-device-width, initial-scale-1.0">
+        <title>Clase 4</title>
+    </head>
+    <body>
+
+    </body>
+    <header>
+<h1> Aprendiendo formularios</h1>
+    </header>
+    <main>
+        <section id=""></section>
+        <h2>Formularios</h2>
+        <h3>Articulos</h3>
+        <fieldset>
+            <legend>
+
+                <b>Articulo</b>
+            </legend>
+        <form action="/AltaArticuloController"
+        method="post">
+            <div>
+            <label>ID</label>
+            <input type="text"
+             name="id"
+              id="id"
+              placeholder="id unico"
+              />
+        </div>
+             <div>         
+              <label>PRECIO</label>
+              <section>
+                <option></option>
+                <option value="SOLES"></option>
+                <option value="ARS"></option>
+                <option value="USD"></option>
+            
+              </section>
+              <input type="number"
+              name="precio"
+              id="precio"
+              placeholder="0"/>
+             </div>
+            <div>
+              <label>Tipos</label>
+              <select name="tipo"
+              id="tipo"/>
+
+              <option value="-1"></option>
+              <option value="1">Libros</option>
+              <option value="2">Peliculas</option>
+              <option value="3">Electrodomesticos</option>
+                
+              </select>
+            </div>
+            <div>
+                 <input type="radio" id="nuevo"
+                            name="estado"/> <label>Nuevo</label>
+                <input type="radio" id="usado"
+                            name="estado"/> <label>Usado</label>
+            </div>
+            <div>
+                <label>Tallas</label>
+                <div>
+                <input type="checkbox"/>
+                <label for="">Chico</label>
+                <input type="checkbox"/>
+                <label for="">Mediano</label>
+                <input type="checkbox"/>
+                <label for="">Grande</label>
+                </div>
+            </div>
+           <div>
+            <input type="file">
+
+           </div>
+           <div>
+            <label>Campo privado</label>
+            <input 
+            name="dataPrivado" 
+            type="password"/>
+            <div>
+                <label>Mail</label>
+             <input type="email" name="email"/>
+            </div>
+            <div>
+                <label>Fecha</label>
+                <input type="date" name="date"/>
+            </div>
+
+           </div>
+            <div>
+                <button type="submit"/>
+                Enviar
+            </div>
+        </form>
+    </fieldset>
+    <section id="producto buscador">
+        <form>
+            <input type="search">
+
+        </form>
+
+    </section>
+    <section id="producto alta">
+
+    </section>
+    <section id="producto listado">
+<h1>Listado</h1>
+<table>
+    <tr>
+        <ul>mirar el video y rellenar</ul>
+        <ul>mirar el video y rellenar</ul>
+        <ul>mirar el video y rellenar</ul>
+        <ul>mirar el video y rellenar</ul>
+    </tr>
+    
+</table>
+    </section>
+        
+    </main>
